@@ -68,7 +68,7 @@ Make sure you have CUDA installed on your system if you want to use GPU accelera
 This README.md file is a template. Please replace all placeholders (text in square brackets like `[PLACEHOLDER]`) with your specific information:
 
 - `[PROJECT TITLE]`: Your project's title
-- `[STUDENT NAME]` and `[STUDENT ID]`: Your personal information
+- `[STUDENT NAME]`: Your name
 - `[BRIEF DESCRIPTION OF YOUR PROJECT]`: What your project does
 - `[MAIN_NOTEBOOK].ipynb`: Your main notebook filename
 - `[DATASET]`: The dataset you're working with (e.g., mnist, moons)
