@@ -1,6 +1,10 @@
-# PyTorch Neural Network Tutorial
+# [PROJECT TITLE] - PyTorch Neural Network
 
-This repository contains a Jupyter notebook demonstrating how to train a simple neural network using PyTorch. The example uses the two-moons dataset for binary classification.
+**[STUDENT NAME]**
+
+This repository contains [BRIEF DESCRIPTION OF YOUR PROJECT]. [EXPLAIN WHAT YOUR NEURAL NETWORK DOES AND WHAT DATASET IT USES].
+
+> **📋 Assignment Instructions**: Detailed instructions for this assignment can be found in [`instructions.md`](instructions.md). Please read the instructions file carefully before starting your work.
 
 ## Setup Instructions
 
@@ -28,26 +32,30 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Then open `notebook.ipynb` in your browser.
+Then open `[YOUR_MAIN_NOTEBOOK].ipynb` in your browser.
 
 ## Project Structure
 
-- `notebook.ipynb`: Main Jupyter notebook containing the PyTorch tutorial
+- `[MAIN_NOTEBOOK].ipynb`: [DESCRIPTION OF YOUR MAIN NOTEBOOK]
+- `run_experiment_[DATASET].py`: [DESCRIPTION OF YOUR TRAINING SCRIPT]
+- `visualization_[DATASET].ipynb`: [DESCRIPTION OF YOUR VISUALIZATION NOTEBOOK]
 - `requirements.txt`: List of required Python packages
+- `instructions.md`: Assignment instructions and requirements
 
 ## Features
 
-- Data preprocessing with scikit-learn
+- [LIST YOUR SPECIFIC FEATURES HERE, e.g.,:]
+- Data preprocessing with [LIBRARY NAME]
 - PyTorch neural network implementation
 - Training loop with loss and accuracy tracking
 - Model evaluation on test set
+- [ADD ANY OTHER FEATURES YOUR PROJECT INCLUDES]
 
 ## Requirements
 
-- Python 3.13
-- PyTorch
-- scikit-learn
-- Jupyter Notebook
+- [ADD REQUIRED LIBRARIES]
+
+> **Note**: All required packages are listed in `requirements.txt`. Install them using `pip install -r requirements.txt`
 
 ## Note
 
@@ -55,67 +63,23 @@ Make sure you have CUDA installed on your system if you want to use GPU accelera
 
 ---
 
-# Assignment: MNIST Classification
+## 📝 Template Instructions
 
-## Assignment Overview
+This README.md file is a template. Please replace all placeholders (text in square brackets like `[PLACEHOLDER]`) with your specific information:
 
-The assignment consists of two main parts:
+- `[PROJECT TITLE]`: Your project's title
+- `[STUDENT NAME]` and `[STUDENT ID]`: Your personal information
+- `[BRIEF DESCRIPTION OF YOUR PROJECT]`: What your project does
+- `[MAIN_NOTEBOOK].ipynb`: Your main notebook filename
+- `[DATASET]`: The dataset you're working with (e.g., mnist, moons)
+- `[LIBRARY NAME]`: Specific libraries you used for preprocessing
+- `[ADD OTHER REQUIRED LIBRARIES]`: Any additional dependencies
+- `[ADD ANY OTHER FEATURES YOUR PROJECT INCLUDES]`: Additional features
 
-1. **Model Implementation and Training** (`run_experiment_mnist.py`):
-   - Use `run_experiment_moons.py` as a reference to implement the MNIST version
-   - Implement the training and evaluation process for MNIST digit classification
-   - Track and report training/validation metrics
-   - Save the trained model
+Make sure to read the `instructions.md` file for detailed assignment requirements before starting your work.
 
-2. **Model Visualization and Analysis** (`visualization_mnist.ipynb`):
-   - Load the trained model
-   - Visualize sample predictions
-   - Analyze model performance on different digits
-   - Create visualizations of model predictions
+## AI Tools Usage
 
-## Dataset
+[IF YOU USED ANY AI TOOLS, DESCRIBE THEM HERE. See instructions.md for detailed requirements on what to include in this section. If you didn't use any AI tools, you can delete this section or write "No AI tools were used in this project."]
 
-The MNIST dataset consists of 70,000 handwritten digits (0-9) in grayscale format. Each image is 28x28 pixels. The dataset is automatically downloaded when running the code.
-
-## Tasks
-
-### Part 1: Model Implementation
-
-1. Implement `run_experiment_mnist.py` using `run_experiment_moons.py` as a reference:
-   - Load and preprocess the MNIST dataset
-   - Implement appropriate data transformations
-   - Define a suitable neural network architecture
-   - Implement the training loop
-   - Track training and validation metrics
-   - Save the trained model
-
-### Part 2: Visualization and Analysis
-
-Complete the `visualization_mnist.ipynb` notebook to:
-1. Load the trained model
-2. Select and display sample images from the test set
-3. Show model predictions for these samples
-4. Visualize the model's confidence in its predictions
-5. Analyze cases where the model makes mistakes
-6. Create a confusion matrix to show overall performance
-
-## Evaluation Criteria
-
-Your submission will be evaluated based on:
-1. Correct implementation of the MNIST dataset loading and preprocessing
-2. Appropriate model architecture and training process
-3. Quality of the visualization notebook
-4. Analysis of model performance
-5. Code organization and documentation
-
-## Submission
-
-Submit your completed:
-1. `run_experiment_mnist.py` with your implementation
-2. Completed `visualization_mnist.ipynb`
-
-## Resources
-
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
-- [MNIST Dataset Documentation](https://pytorch.org/vision/stable/datasets.html#mnist)
-- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+---
