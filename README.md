@@ -1,4 +1,4 @@
-# [PROJECT TITLE] - PyTorch Neural Network
+# PyTorch Neural Network
 
 **[STUDENT NAME]**
 
