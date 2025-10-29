@@ -1,6 +1,6 @@
 # PyTorch Neural Network
 
-**[STUDENT NAME]**
+**Jose Enrique Alvarez Lara**
 
 This repository contains [BRIEF DESCRIPTION OF YOUR PROJECT]. [EXPLAIN WHAT YOUR NEURAL NETWORK DOES AND WHAT DATASET IT USES].
 
