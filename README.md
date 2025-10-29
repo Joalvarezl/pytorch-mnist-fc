@@ -2,7 +2,8 @@
 
 **Jose Enrique Alvarez Lara**
 
-This repository contains [BRIEF DESCRIPTION OF YOUR PROJECT]. [EXPLAIN WHAT YOUR NEURAL NETWORK DOES AND WHAT DATASET IT USES].
+This repository contains a neural network that classifies handwritten digits.
+It receives as input a grayscale image of size 28×28 pixels, converts it into a vector, and processes it through a fully connected neural network (Fully Connected Network) with ReLU activation functions and Dropout to prevent overfitting.
 
 > **📋 Assignment Instructions**: Detailed instructions for this assignment can be found in [`instructions.md`](instructions.md). Please read the instructions file carefully before starting your work.
 
